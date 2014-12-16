@@ -1,0 +1,3853 @@
+fileFormatVersion: 2
+guid: 7a0af651a59c167429cd5438f6119cb6
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Barracks Material_0
+    21300002: Barracks Material_1
+    21300004: Barracks Material_2
+    21300006: Barracks Material_3
+    21300008: Barracks Material_4
+    21300010: Barracks Material_5
+    21300012: Barracks Material_6
+    21300014: Barracks Material_7
+    21300016: Barracks Material_8
+    21300018: Barracks Material_9
+    21300020: Barracks Material_10
+    21300022: Barracks Material_11
+    21300024: Barracks Material_12
+    21300026: Barracks Material_13
+    21300028: Barracks Material_14
+    21300030: Barracks Material_15
+    21300032: Barracks Material_16
+    21300034: Barracks Material_17
+    21300036: Barracks Material_18
+    21300038: Barracks Material_19
+    21300040: Barracks Material_20
+    21300042: Barracks Material_21
+    21300044: Barracks Material_22
+    21300046: Barracks Material_23
+    21300048: Barracks Material_24
+    21300050: Barracks Material_25
+    21300052: Barracks Material_26
+    21300054: Barracks Material_27
+    21300056: Barracks Material_28
+    21300058: Barracks Material_29
+    21300060: Barracks Material_30
+    21300062: Barracks Material_31
+    21300064: Barracks Material_32
+    21300066: Barracks Material_33
+    21300068: Barracks Material_34
+    21300070: Barracks Material_35
+    21300072: Barracks Material_36
+    21300074: Barracks Material_37
+    21300076: Barracks Material_38
+    21300078: Barracks Material_39
+    21300080: Barracks Material_40
+    21300082: Barracks Material_41
+    21300084: Barracks Material_42
+    21300086: Barracks Material_43
+    21300088: Barracks Material_44
+    21300090: Barracks Material_45
+    21300092: Barracks Material_46
+    21300094: Barracks Material_47
+    21300096: Barracks Material_48
+    21300098: Barracks Material_49
+    21300100: Barracks Material_50
+    21300102: Barracks Material_51
+    21300104: Barracks Material_52
+    21300106: Barracks Material_53
+    21300108: Barracks Material_54
+    21300110: Barracks Material_55
+    21300112: Barracks Material_56
+    21300114: Barracks Material_57
+    21300116: Barracks Material_58
+    21300118: Barracks Material_59
+    21300120: Barracks Material_60
+    21300122: Barracks Material_61
+    21300124: Barracks Material_62
+    21300126: Barracks Material_63
+    21300128: Barracks Material_64
+    21300130: Barracks Material_65
+    21300132: Barracks Material_66
+    21300134: Barracks Material_67
+    21300136: Barracks Material_68
+    21300138: Barracks Material_69
+    21300140: Barracks Material_70
+    21300142: Barracks Material_71
+    21300144: Barracks Material_72
+    21300146: Barracks Material_73
+    21300148: Barracks Material_74
+    21300150: Barracks Material_75
+    21300152: Barracks Material_76
+    21300154: Barracks Material_77
+    21300156: Barracks Material_78
+    21300158: Barracks Material_79
+    21300160: Barracks Material_80
+    21300162: Barracks Material_81
+    21300164: Barracks Material_82
+    21300166: Barracks Material_83
+    21300168: Barracks Material_84
+    21300170: Barracks Material_85
+    21300172: Barracks Material_86
+    21300174: Barracks Material_87
+    21300176: Barracks Material_88
+    21300178: Barracks Material_89
+    21300180: Barracks Material_90
+    21300182: Barracks Material_91
+    21300184: Barracks Material_92
+    21300186: Barracks Material_93
+    21300188: Barracks Material_94
+    21300190: Barracks Material_95
+    21300192: Barracks Material_96
+    21300194: Barracks Material_97
+    21300196: Barracks Material_98
+    21300198: Barracks Material_99
+    21300200: Barracks Material_100
+    21300202: Barracks Material_101
+    21300204: Barracks Material_102
+    21300206: Barracks Material_103
+    21300208: Barracks Material_104
+    21300210: Barracks Material_105
+    21300212: Barracks Material_106
+    21300214: Barracks Material_107
+    21300216: Barracks Material_108
+    21300218: Barracks Material_109
+    21300220: Barracks Material_110
+    21300222: Barracks Material_111
+    21300224: Barracks Material_112
+    21300226: Barracks Material_113
+    21300228: Barracks Material_114
+    21300230: Barracks Material_115
+    21300232: Barracks Material_116
+    21300234: Barracks Material_117
+    21300236: Barracks Material_118
+    21300238: Barracks Material_119
+    21300240: Barracks Material_120
+    21300242: Barracks Material_121
+    21300244: Barracks Material_122
+    21300246: Barracks Material_123
+    21300248: Barracks Material_124
+    21300250: Barracks Material_125
+    21300252: Barracks Material_126
+    21300254: Barracks Material_127
+    21300256: Barracks Material_128
+    21300258: Barracks Material_129
+    21300260: Barracks Material_130
+    21300262: Barracks Material_131
+    21300264: Barracks Material_132
+    21300266: Barracks Material_133
+    21300268: Barracks Material_134
+    21300270: Barracks Material_135
+    21300272: Barracks Material_136
+    21300274: Barracks Material_137
+    21300276: Barracks Material_138
+    21300278: Barracks Material_139
+    21300280: Barracks Material_140
+    21300282: Barracks Material_141
+    21300284: Barracks Material_142
+    21300286: Barracks Material_143
+    21300288: Barracks Material_144
+    21300290: Barracks Material_145
+    21300292: Barracks Material_146
+    21300294: Barracks Material_147
+    21300296: Barracks Material_148
+    21300298: Barracks Material_149
+    21300300: Barracks Material_150
+    21300302: Barracks Material_151
+    21300304: Barracks Material_152
+    21300306: Barracks Material_153
+    21300308: Barracks Material_154
+    21300310: Barracks Material_155
+    21300312: Barracks Material_156
+    21300314: Barracks Material_157
+    21300316: Barracks Material_158
+    21300318: Barracks Material_159
+    21300320: Barracks Material_160
+    21300322: Barracks Material_161
+    21300324: Barracks Material_162
+    21300326: Barracks Material_163
+    21300328: Barracks Material_164
+    21300330: Barracks Material_165
+    21300332: Barracks Material_166
+    21300334: Barracks Material_167
+    21300336: Barracks Material_168
+    21300338: Barracks Material_169
+    21300340: Barracks Material_170
+    21300342: Barracks Material_171
+    21300344: Barracks Material_172
+    21300346: Barracks Material_173
+    21300348: Barracks Material_174
+    21300350: Barracks Material_175
+    21300352: Barracks Material_176
+    21300354: Barracks Material_177
+    21300356: Barracks Material_178
+    21300358: Barracks Material_179
+    21300360: Barracks Material_180
+    21300362: Barracks Material_181
+    21300364: Barracks Material_182
+    21300366: Barracks Material_183
+    21300368: Barracks Material_184
+    21300370: Barracks Material_185
+    21300372: Barracks Material_186
+    21300374: Barracks Material_187
+    21300376: Barracks Material_188
+    21300378: Barracks Material_189
+    21300380: Barracks Material_190
+    21300382: Barracks Material_191
+    21300384: Barracks Material_192
+    21300386: Barracks Material_193
+    21300388: Barracks Material_194
+    21300390: Barracks Material_195
+    21300392: Barracks Material_196
+    21300394: Barracks Material_197
+    21300396: Barracks Material_198
+    21300398: Barracks Material_199
+    21300400: Barracks Material_200
+    21300402: Barracks Material_201
+    21300404: Barracks Material_202
+    21300406: Barracks Material_203
+    21300408: Barracks Material_204
+    21300410: Barracks Material_205
+    21300412: Barracks Material_206
+    21300414: Barracks Material_207
+    21300416: Barracks Material_208
+    21300418: Barracks Material_209
+    21300420: Barracks Material_210
+    21300422: Barracks Material_211
+    21300424: Barracks Material_212
+    21300426: Barracks Material_213
+    21300428: Barracks Material_214
+    21300430: Barracks Material_215
+    21300432: Barracks Material_216
+    21300434: Barracks Material_217
+    21300436: Barracks Material_218
+    21300438: Barracks Material_219
+    21300440: Barracks Material_220
+    21300442: Barracks Material_221
+    21300444: Barracks Material_222
+    21300446: Barracks Material_223
+    21300448: Barracks Material_224
+    21300450: Barracks Material_225
+    21300452: Barracks Material_226
+    21300454: Barracks Material_227
+    21300456: Barracks Material_228
+    21300458: Barracks Material_229
+    21300460: Barracks Material_230
+    21300462: Barracks Material_231
+    21300464: Barracks Material_232
+    21300466: Barracks Material_233
+    21300468: Barracks Material_234
+    21300470: Barracks Material_235
+    21300472: Barracks Material_236
+    21300474: Barracks Material_237
+    21300476: Barracks Material_238
+    21300478: Barracks Material_239
+    21300480: Barracks Material_240
+    21300482: Barracks Material_241
+    21300484: Barracks Material_242
+    21300486: Barracks Material_243
+    21300488: Barracks Material_244
+    21300490: Barracks Material_245
+    21300492: Barracks Material_246
+    21300494: Barracks Material_247
+    21300496: Barracks Material_248
+    21300498: Barracks Material_249
+    21300500: Barracks Material_250
+    21300502: Barracks Material_251
+    21300504: Barracks Material_252
+    21300506: Barracks Material_253
+    21300508: Barracks Material_254
+    21300510: Barracks Material_255
+    21300512: Barracks Material_256
+    21300514: Barracks Material_257
+    21300516: Barracks Material_258
+    21300518: Barracks Material_259
+    21300520: Barracks Material_260
+    21300522: Barracks Material_261
+    21300524: Barracks Material_262
+    21300526: Barracks Material_263
+    21300528: Barracks Material_264
+    21300530: Barracks Material_265
+    21300532: Barracks Material_266
+    21300534: Barracks Material_267
+    21300536: Barracks Material_268
+    21300538: Barracks Material_269
+    21300540: Barracks Material_270
+    21300542: Barracks Material_271
+    21300544: Barracks Material_272
+    21300546: Barracks Material_273
+    21300548: Barracks Material_274
+    21300550: Barracks Material_275
+    21300552: Barracks Material_276
+    21300554: Barracks Material_277
+    21300556: Barracks Material_278
+    21300558: Barracks Material_279
+    21300560: Barracks Material_280
+    21300562: Barracks Material_281
+    21300564: Barracks Material_282
+    21300566: Barracks Material_283
+    21300568: Barracks Material_284
+    21300570: Barracks Material_285
+    21300572: Barracks Material_286
+    21300574: Barracks Material_287
+    21300576: Barracks Material_288
+    21300578: Barracks Material_289
+    21300580: Barracks Material_290
+    21300582: Barracks Material_291
+    21300584: Barracks Material_292
+    21300586: Barracks Material_293
+    21300588: Barracks Material_294
+    21300590: Barracks Material_295
+    21300592: Barracks Material_296
+    21300594: Barracks Material_297
+    21300596: Barracks Material_298
+    21300598: Barracks Material_299
+    21300600: Barracks Material_300
+    21300602: Barracks Material_301
+    21300604: Barracks Material_302
+    21300606: Barracks Material_303
+    21300608: Barracks Material_304
+    21300610: Barracks Material_305
+    21300612: Barracks Material_306
+    21300614: Barracks Material_307
+    21300616: Barracks Material_308
+    21300618: Barracks Material_309
+    21300620: Barracks Material_310
+    21300622: Barracks Material_311
+    21300624: Barracks Material_312
+    21300626: Barracks Material_313
+    21300628: Barracks Material_314
+    21300630: Barracks Material_315
+    21300632: Barracks Material_316
+    21300634: Barracks Material_317
+    21300636: Barracks Material_318
+    21300638: Barracks Material_319
+    21300640: Barracks Material_320
+    21300642: Barracks Material_321
+    21300644: Barracks Material_322
+    21300646: Barracks Material_323
+    21300648: Barracks Material_324
+    21300650: Barracks Material_325
+    21300652: Barracks Material_326
+    21300654: Barracks Material_327
+    21300656: Barracks Material_328
+    21300658: Barracks Material_329
+    21300660: Barracks Material_330
+    21300662: Barracks Material_331
+    21300664: Barracks Material_332
+    21300666: Barracks Material_333
+    21300668: Barracks Material_334
+    21300670: Barracks Material_335
+    21300672: Barracks Material_336
+    21300674: Barracks Material_337
+    21300676: Barracks Material_338
+    21300678: Barracks Material_339
+    21300680: Barracks Material_340
+    21300682: Barracks Material_341
+    21300684: Barracks Material_342
+    21300686: Barracks Material_343
+    21300688: Barracks Material_344
+    21300690: Barracks Material_345
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Barracks Material_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 863
+        width: 124
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_1
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1009
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1009
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_3
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1009
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_4
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1009
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_5
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 929
+        width: 83
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_6
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 994
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_7
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 995
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_8
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 990
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_9
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 972
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_10
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 996
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_11
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 992
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_12
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 976
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_13
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 992
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_14
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 990
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_15
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 948
+        width: 106
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_16
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 951
+        width: 65
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_17
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 955
+        width: 53
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_18
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 959
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_19
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 987
+        width: 24
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_20
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 987
+        width: 20
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_21
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 955
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_22
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 916
+        width: 55
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_23
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 914
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_24
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 919
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_25
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 949
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_26
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 938
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_27
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 950
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_28
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 920
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_29
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 872
+        width: 73
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_30
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 897
+        width: 66
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_31
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 827
+        width: 64
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_32
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 908
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_33
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 900
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_34
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 922
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_35
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 838
+        width: 67
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_36
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 873
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_37
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 879
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_38
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 875
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_39
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 862
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_40
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 884
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_41
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 884
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_42
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 818
+        width: 78
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_43
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 843
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_44
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 788
+        width: 55
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_45
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 837
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_46
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 868
+        width: 25
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_47
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 854
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 766
+        width: 124
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_49
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 838
+        width: 37
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_50
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 798
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_51
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 832
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_52
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 848
+        width: 22
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_53
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 786
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_54
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 792
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_55
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 728
+        width: 33
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_56
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 791
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_57
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 817
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_58
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 812
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_59
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 812
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_60
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 812
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_61
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 812
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_62
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 812
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_63
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 812
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_64
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 794
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_65
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 760
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_66
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 779
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_67
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 779
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_68
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 779
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_69
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 779
+        width: 53
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_70
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 779
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_71
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 779
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_72
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 786
+        width: 25
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_73
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 783
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_74
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 743
+        width: 50
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_75
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 751
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_76
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 812
+        width: 22
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_77
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 748
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_78
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 779
+        width: 22
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_79
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 779
+        width: 20
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 669
+        width: 124
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_81
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 732
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_82
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 748
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_83
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 748
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_84
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 748
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_85
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 748
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_86
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 748
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_87
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 748
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_88
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 748
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_89
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 724
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_90
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 700
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_91
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 671
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_92
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 716
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_93
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 708
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_94
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 710
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_95
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 710
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_96
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 715
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_97
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 708
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_98
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 710
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_99
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 678
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_100
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 672
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_101
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 710
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_102
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 710
+        width: 24
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_103
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 655
+        width: 52
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_104
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 671
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_105
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 671
+        width: 48
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_106
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 671
+        width: 48
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_107
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 671
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_108
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 671
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_109
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 671
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 561
+        width: 125
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_111
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 624
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_112
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 609
+        width: 51
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_113
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 632
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_114
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 625
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_115
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 625
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_116
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 625
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_117
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 624
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_118
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 624
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_119
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 625
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_120
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 625
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_121
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 625
+        width: 25
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_122
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 570
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_123
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 586
+        width: 52
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_124
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 579
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_125
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 586
+        width: 50
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_126
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 586
+        width: 49
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_127
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 586
+        width: 49
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_128
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 586
+        width: 61
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_129
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 586
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_130
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 569
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_131
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 574
+        width: 29
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_132
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 560
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_133
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 560
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_134
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 577
+        width: 34
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_135
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 564
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_136
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 572
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_137
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 571
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_138
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 564
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_139
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 576
+        width: 35
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_140
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 553
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_141
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 486
+        width: 123
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_142
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 566
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_143
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 554
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_144
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 554
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_145
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 566
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_146
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 566
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_147
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 556
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_148
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 566
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_149
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 553
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_150
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 566
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_151
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 556
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_152
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 453
+        width: 125
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_153
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 553
+        width: 29
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_154
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 553
+        width: 29
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_155
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 553
+        width: 37
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_156
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 552
+        width: 36
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_157
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 553
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_158
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 553
+        width: 34
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_159
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 374
+        width: 86
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_160
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 516
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_161
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 514
+        width: 60
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_162
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 537
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_163
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 512
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_164
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 512
+        width: 84
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_165
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 539
+        width: 36
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_166
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 539
+        width: 36
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_167
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 522
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_168
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 536
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_169
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 527
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_170
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 528
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_171
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 536
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_172
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 526
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_173
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 527
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_174
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 519
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_175
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 519
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_176
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 527
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_177
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 516
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_178
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 527
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_179
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 527
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_180
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 516
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_181
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 514
+        width: 28
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_182
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 514
+        width: 36
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_183
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 514
+        width: 32
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_184
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 514
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_185
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 397
+        width: 121
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_186
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 462
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_187
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 465
+        width: 64
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_188
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 464
+        width: 60
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_189
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 465
+        width: 64
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_190
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 465
+        width: 71
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_191
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 465
+        width: 64
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_192
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 472
+        width: 54
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_193
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 465
+        width: 25
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_194
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 345
+        width: 125
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_195
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 411
+        width: 97
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_196
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 411
+        width: 268
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_197
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 411
+        width: 65
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_198
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 411
+        width: 67
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_199
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 411
+        width: 63
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_200
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 411
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_201
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 308
+        width: 121
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_202
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 289
+        width: 86
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_203
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 349
+        width: 91
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_204
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 349
+        width: 99
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_205
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 349
+        width: 95
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_206
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 333
+        width: 124
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_207
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 369
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_208
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 348
+        width: 191
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_209
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 237
+        width: 125
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_210
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 288
+        width: 201
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_211
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 289
+        width: 98
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_212
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 291
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_213
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 292
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_214
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 291
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_215
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 292
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_216
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 289
+        width: 105
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_217
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 289
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_218
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 266
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_219
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 266
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_220
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 266
+        width: 40
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_221
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 268
+        width: 35
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_222
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 268
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_223
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 268
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_224
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 116
+        width: 144
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_225
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 190
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_226
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 251
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_227
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 208
+        width: 109
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_228
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 208
+        width: 103
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_229
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 208
+        width: 102
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_230
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 208
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_231
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 191
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_232
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 199
+        width: 29
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_233
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 191
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_234
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 199
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_235
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 187
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_236
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 190
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_237
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 180
+        width: 87
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_238
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 198
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_239
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 120
+        width: 121
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_240
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 192
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_241
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 192
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_242
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 183
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_243
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 181
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_244
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 174
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_245
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 180
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_246
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 173
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_247
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 180
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_248
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 174
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_249
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 181
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_250
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 180
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_251
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 176
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_252
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 174
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_253
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 175
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_254
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 172
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_255
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 175
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_256
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 174
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_257
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 164
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_258
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 160
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_259
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 168
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_260
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 164
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_261
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 160
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_262
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 164
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_263
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 155
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_264
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 164
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_265
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 155
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_266
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 159
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_267
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 162
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_268
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 159
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_269
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 162
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_270
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 163
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_271
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 162
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_272
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 159
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_273
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 162
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_274
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 159
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_275
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 162
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_276
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 160
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_277
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 159
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_278
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 162
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_279
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 160
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_280
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 160
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_281
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 155
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_282
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 156
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_283
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 155
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_284
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 154
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_285
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 155
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_286
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 155
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_287
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 154
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_288
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 151
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_289
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 154
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_290
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 151
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_291
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 154
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_292
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 147
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_293
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 148
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_294
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 151
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_295
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 135
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_296
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 142
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_297
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 151
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_298
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 142
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_299
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 138
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_300
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 138
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_301
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 142
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_302
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 136
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_303
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 135
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_304
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 140
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_305
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 136
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_306
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 138
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_307
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 142
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_308
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 135
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_309
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 137
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_310
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 140
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_311
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 138
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_312
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 135
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_313
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 139
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_314
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 140
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_315
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 138
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_316
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 135
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_317
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 139
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_318
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 135
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_319
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 134
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_320
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 137
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_321
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 135
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_322
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 132
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_323
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 138
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_324
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 132
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_325
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 132
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_326
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 128
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_327
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 129
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_328
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 132
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_329
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 132
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_330
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 124
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_331
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 120
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_332
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 120
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_333
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 120
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_334
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 120
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_335
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 120
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_336
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 132
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_337
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 0
+        width: 132
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_338
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 0
+        width: 132
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_339
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 0
+        width: 132
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_340
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 0
+        width: 132
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_341
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 0
+        width: 138
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_342
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 86
+        width: 62
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_343
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 85
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_344
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Barracks Material_345
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 0
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

@@ -1,0 +1,674 @@
+fileFormatVersion: 2
+guid: 820e0d19f7e1e3842b0f16d232a48747
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Brigand Material_0
+    21300002: Brigand Material_1
+    21300004: Brigand Material_2
+    21300006: Brigand Material_3
+    21300008: Brigand Material_4
+    21300010: Brigand Material_5
+    21300012: Brigand Material_6
+    21300014: Brigand Material_7
+    21300016: Brigand Material_8
+    21300018: Brigand Material_9
+    21300020: Brigand Material_10
+    21300022: Brigand Material_11
+    21300024: Brigand Material_12
+    21300026: Brigand Material_13
+    21300028: Brigand Material_14
+    21300030: Brigand Material_15
+    21300032: Brigand Material_16
+    21300034: Brigand Material_17
+    21300036: Brigand Material_18
+    21300038: Brigand Material_19
+    21300040: Brigand Material_20
+    21300042: Brigand Material_21
+    21300044: Brigand Material_22
+    21300046: Brigand Material_23
+    21300048: Brigand Material_24
+    21300050: Brigand Material_25
+    21300052: Brigand Material_26
+    21300054: Brigand Material_27
+    21300056: Brigand Material_28
+    21300058: Brigand Material_29
+    21300060: Brigand Material_30
+    21300062: Brigand Material_31
+    21300064: Brigand Material_32
+    21300066: Brigand Material_33
+    21300068: Brigand Material_34
+    21300070: Brigand Material_35
+    21300072: Brigand Material_36
+    21300074: Brigand Material_37
+    21300076: Brigand Material_38
+    21300078: Brigand Material_39
+    21300080: Brigand Material_40
+    21300082: Brigand Material_41
+    21300084: Brigand Material_42
+    21300086: Brigand Material_43
+    21300088: Brigand Material_44
+    21300090: Brigand Material_45
+    21300092: Brigand Material_46
+    21300094: Brigand Material_47
+    21300096: Brigand Material_48
+    21300098: Brigand Material_49
+    21300100: Brigand Material_50
+    21300102: Brigand Material_51
+    21300104: Brigand Material_52
+    21300106: Brigand Material_53
+    21300108: Brigand Material_54
+    21300110: Brigand Material_55
+    21300112: Brigand Material_56
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Brigand Material_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 234
+        width: 38
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_1
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 227
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_2
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 212
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_3
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 212
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_4
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 202
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_5
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 204
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 188
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_7
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 222
+        width: 21
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_8
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 188
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 182
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_10
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 188
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_11
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 176
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_12
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 143
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_13
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 137
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_14
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 168
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_15
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 171
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_16
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 160
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_17
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 164
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_18
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 152
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_19
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 130
+        width: 72
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_20
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 96
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 92
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_22
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 124
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_23
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 128
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_24
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 123
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_25
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 115
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_26
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 100
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 104
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_28
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 82
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_29
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 76
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_30
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 97
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_31
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 48
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 46
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_33
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 0
+        width: 39
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_34
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 84
+        width: 23
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_35
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 40
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_36
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 40
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_37
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 39
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_38
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 64
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 56
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_40
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 54
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_41
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 39
+        width: 38
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_42
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 39
+        width: 39
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_43
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 0
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_45
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 43
+        width: 22
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_46
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 6
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_47
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 0
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_48
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 0
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_49
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 0
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_50
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 0
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_51
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 0
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_52
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 0
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_53
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_54
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 0
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_55
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 0
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brigand Material_56
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 0
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
