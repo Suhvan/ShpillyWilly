@@ -4,11 +4,12 @@ using RTS;
 
 public class UserInput : MonoBehaviour {
     private Player player;
+    private View view;
 
 	// Use this for initialization
 	void Start () {
         player = transform.root.GetComponent<Player>();
-
+        view = transform.GetComponent<View>();
 	}
 	
 	// Update is called once per frame
@@ -33,6 +34,7 @@ public class UserInput : MonoBehaviour {
         {
             player.SelectedObject.SetSelection(false);
             player.SelectedObject = null;
+            view.UpdateSelectedObject();
         }
     }
 
@@ -50,6 +52,7 @@ public class UserInput : MonoBehaviour {
                 //we already know the player has no selected object
                 player.SelectedObject = worldObject;
                 worldObject.SetSelection(true);
+                view.UpdateSelectedObject();
             }
         }
         

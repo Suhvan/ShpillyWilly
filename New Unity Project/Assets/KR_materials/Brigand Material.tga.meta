@@ -3,8 +3,8 @@ guid: 820e0d19f7e1e3842b0f16d232a48747
 TextureImporter:
   fileIDToRecycleName:
     21300000: Brigand Material_0
-    21300002: Brigand Material_1
-    21300004: Brigand Material_2
+    21300002: Brigand_idle_2
+    21300004: Brigand_walk_3
     21300006: Brigand Material_3
     21300008: Brigand Material_4
     21300010: Brigand Material_5
@@ -13,17 +13,17 @@ TextureImporter:
     21300016: Brigand Material_8
     21300018: Brigand Material_9
     21300020: Brigand Material_10
-    21300022: Brigand Material_11
+    21300022: Brigand_swipe_2
     21300024: Brigand Material_12
     21300026: Brigand Material_13
     21300028: Brigand Material_14
     21300030: Brigand Material_15
-    21300032: Brigand Material_16
+    21300032: Brigand_idle_1
     21300034: Brigand Material_17
     21300036: Brigand Material_18
-    21300038: Brigand Material_19
-    21300040: Brigand Material_20
-    21300042: Brigand Material_21
+    21300038: Brigand_swipe_1
+    21300040: Brigand_swipe_5
+    21300042: Brigand_walk_2
     21300044: Brigand Material_22
     21300046: Brigand Material_23
     21300048: Brigand Material_24
@@ -33,7 +33,7 @@ TextureImporter:
     21300056: Brigand Material_28
     21300058: Brigand Material_29
     21300060: Brigand Material_30
-    21300062: Brigand Material_31
+    21300062: Brigand_swipe_3
     21300064: Brigand Material_32
     21300066: Brigand Material_33
     21300068: Brigand Material_34
@@ -45,7 +45,7 @@ TextureImporter:
     21300080: Brigand Material_40
     21300082: Brigand Material_41
     21300084: Brigand Material_42
-    21300086: Brigand Material_43
+    21300086: Brigand_swipe_4
     21300088: Brigand Material_44
     21300090: Brigand Material_45
     21300092: Brigand Material_46
@@ -57,7 +57,7 @@ TextureImporter:
     21300104: Brigand Material_52
     21300106: Brigand Material_53
     21300108: Brigand Material_54
-    21300110: Brigand Material_55
+    21300110: Brigand_walk_1
     21300112: Brigand Material_56
   serializedVersion: 2
   mipmaps:
@@ -108,19 +108,19 @@ TextureImporter:
         width: 38
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Brigand Material_1
+    - name: Brigand_idle_2
       rect:
         serializedVersion: 2
-        x: 45
-        y: 227
-        width: 35
-        height: 29
+        x: 231
+        y: 161
+        width: 29
+        height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Brigand Material_2
+    - name: Brigand_walk_3
       rect:
         serializedVersion: 2
         x: 162
@@ -128,7 +128,7 @@ TextureImporter:
         width: 29
         height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_3
       rect:
@@ -138,7 +138,7 @@ TextureImporter:
         width: 27
         height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_4
       rect:
@@ -148,7 +148,7 @@ TextureImporter:
         width: 30
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_5
       rect:
@@ -158,7 +158,7 @@ TextureImporter:
         width: 27
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_6
       rect:
@@ -168,7 +168,7 @@ TextureImporter:
         width: 39
         height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_7
       rect:
@@ -178,7 +178,7 @@ TextureImporter:
         width: 21
         height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_8
       rect:
@@ -188,7 +188,7 @@ TextureImporter:
         width: 33
         height: 46
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_9
       rect:
@@ -198,7 +198,7 @@ TextureImporter:
         width: 29
         height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_10
       rect:
@@ -208,17 +208,17 @@ TextureImporter:
         width: 27
         height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Brigand Material_11
+    - name: Brigand_swipe_2
       rect:
         serializedVersion: 2
         x: 45
         y: 176
-        width: 39
+        width: 40
         height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_12
       rect:
@@ -228,7 +228,7 @@ TextureImporter:
         width: 35
         height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_13
       rect:
@@ -238,7 +238,7 @@ TextureImporter:
         width: 29
         height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_14
       rect:
@@ -248,7 +248,7 @@ TextureImporter:
         width: 29
         height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_15
       rect:
@@ -258,17 +258,17 @@ TextureImporter:
         width: 27
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Brigand Material_16
+    - name: Brigand_idle_1
       rect:
         serializedVersion: 2
         x: 231
-        y: 160
-        width: 28
-        height: 41
+        y: 161
+        width: 29
+        height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_17
       rect:
@@ -278,7 +278,7 @@ TextureImporter:
         width: 27
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_18
       rect:
@@ -288,37 +288,37 @@ TextureImporter:
         width: 27
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Brigand Material_19
+    - name: Brigand_swipe_1
       rect:
         serializedVersion: 2
-        x: 10
-        y: 130
-        width: 72
-        height: 46
+        x: 1
+        y: 142
+        width: 40
+        height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Brigand Material_20
+    - name: Brigand_swipe_5
       rect:
         serializedVersion: 2
-        x: 92
-        y: 96
-        width: 34
-        height: 46
+        x: 163
+        y: 0
+        width: 40
+        height: 37
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Brigand Material_21
+    - name: Brigand_walk_2
       rect:
         serializedVersion: 2
         x: 128
-        y: 92
-        width: 32
-        height: 44
+        y: 93
+        width: 30
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_22
       rect:
@@ -328,7 +328,7 @@ TextureImporter:
         width: 29
         height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_23
       rect:
@@ -338,7 +338,7 @@ TextureImporter:
         width: 27
         height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_24
       rect:
@@ -348,7 +348,7 @@ TextureImporter:
         width: 27
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_25
       rect:
@@ -358,7 +358,7 @@ TextureImporter:
         width: 27
         height: 37
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_26
       rect:
@@ -368,7 +368,7 @@ TextureImporter:
         width: 26
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_27
       rect:
@@ -378,7 +378,7 @@ TextureImporter:
         width: 5
         height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_28
       rect:
@@ -388,7 +388,7 @@ TextureImporter:
         width: 27
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_29
       rect:
@@ -398,7 +398,7 @@ TextureImporter:
         width: 27
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_30
       rect:
@@ -408,17 +408,17 @@ TextureImporter:
         width: 5
         height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Brigand Material_31
+    - name: Brigand_swipe_3
       rect:
         serializedVersion: 2
-        x: 92
-        y: 48
-        width: 35
-        height: 47
+        x: 47
+        y: 43
+        width: 40
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_32
       rect:
@@ -428,17 +428,17 @@ TextureImporter:
         width: 30
         height: 46
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_33
       rect:
         serializedVersion: 2
         x: 162
-        y: 0
-        width: 39
-        height: 80
+        y: 39
+        width: 34
+        height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_34
       rect:
@@ -448,7 +448,7 @@ TextureImporter:
         width: 23
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_35
       rect:
@@ -458,7 +458,7 @@ TextureImporter:
         width: 29
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_36
       rect:
@@ -468,7 +468,7 @@ TextureImporter:
         width: 27
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_37
       rect:
@@ -478,7 +478,7 @@ TextureImporter:
         width: 27
         height: 37
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_38
       rect:
@@ -488,7 +488,7 @@ TextureImporter:
         width: 26
         height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_39
       rect:
@@ -498,7 +498,7 @@ TextureImporter:
         width: 4
         height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_40
       rect:
@@ -508,7 +508,7 @@ TextureImporter:
         width: 5
         height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_41
       rect:
@@ -518,7 +518,7 @@ TextureImporter:
         width: 38
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_42
       rect:
@@ -528,17 +528,17 @@ TextureImporter:
         width: 39
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Brigand Material_43
+    - name: Brigand_swipe_4
       rect:
         serializedVersion: 2
-        x: 92
-        y: 0
-        width: 35
-        height: 47
+        x: 50
+        y: 1
+        width: 40
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_44
       rect:
@@ -548,7 +548,7 @@ TextureImporter:
         width: 33
         height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_45
       rect:
@@ -558,7 +558,7 @@ TextureImporter:
         width: 22
         height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_46
       rect:
@@ -568,7 +568,7 @@ TextureImporter:
         width: 13
         height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_47
       rect:
@@ -578,7 +578,7 @@ TextureImporter:
         width: 28
         height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_48
       rect:
@@ -588,7 +588,7 @@ TextureImporter:
         width: 30
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_49
       rect:
@@ -598,7 +598,7 @@ TextureImporter:
         width: 27
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_50
       rect:
@@ -608,7 +608,7 @@ TextureImporter:
         width: 28
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_51
       rect:
@@ -618,7 +618,7 @@ TextureImporter:
         width: 36
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_52
       rect:
@@ -628,7 +628,7 @@ TextureImporter:
         width: 27
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_53
       rect:
@@ -638,7 +638,7 @@ TextureImporter:
         width: 27
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_54
       rect:
@@ -648,17 +648,17 @@ TextureImporter:
         width: 33
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Brigand Material_55
+    - name: Brigand_walk_1
       rect:
         serializedVersion: 2
         x: 446
         y: 0
         width: 28
-        height: 36
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Brigand Material_56
       rect:
@@ -668,7 +668,7 @@ TextureImporter:
         width: 27
         height: 37
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

@@ -3,15 +3,37 @@ using System.Collections;
 
 public class Unit : WorldObject
 {
+
+    enum STATE 
+    {
+        IDLE = 0,
+        WALK_RIGHT = 1,
+        //WALK_LEFT=2,
+        ATTACK = 2
+    }
     public float moveSpeed;
-    protected bool moving;
+    protected bool m_moving;
+    protected bool Moving
+    {
+        set
+        {
+            m_moving = value;
+            if (value)
+                animator.SetInteger("State", (int)STATE.WALK_RIGHT);
+            else
+                animator.SetInteger("State", (int)STATE.IDLE);
+
+        }
+        get { return m_moving; }
+    }
+    private Animator animator;
 
     private Vector3 destination;
     
 
     protected override void Awake()
     {
-
+        animator = transform.GetComponentInChildren<Animator>();
     }
 
     protected override void Start()
@@ -23,7 +45,7 @@ public class Unit : WorldObject
     {     
         base.Update();
         //if (rotating) TurnToTarget();
-        if (moving) MakeMove();
+        if (Moving) MakeMove();
     }
 
     public override void MouseClick(GameObject hitObject, Vector2 hitPoint, Player controller)
@@ -49,7 +71,7 @@ public class Unit : WorldObject
         this.destination =  destination;        
         //targetRotation = Quaternion.LookRotation(destination - transform.position);
         //rotating = true;
-        moving = true;
+        Moving = true;
     }
 
     private void MakeMove()
@@ -57,8 +79,8 @@ public class Unit : WorldObject
         transform.position = Vector3.MoveTowards(transform.position, destination, Time.deltaTime * moveSpeed);
 
         if (transform.position == destination)
-        {            
-            moving = false;
+        {
+            Moving = false;
         }
     }
 }

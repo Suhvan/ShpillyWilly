@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using RTS;
 
 public class Player : MonoBehaviour {
 
@@ -15,5 +16,12 @@ public class Player : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	
-	}    
+	}
+
+    internal void AddUnit(string unitName, Vector3 spawnPoint, Quaternion rotation)
+    {
+        Units units = GetComponentInChildren<Units>();
+        GameObject newUnit = (GameObject)Instantiate(ResourceManager.GetUnit(unitName), spawnPoint, new Quaternion());
+        newUnit.transform.parent = units.transform;
+    }
 }

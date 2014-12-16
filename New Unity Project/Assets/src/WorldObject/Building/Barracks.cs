@@ -6,11 +6,13 @@ public class Barracks : Building {
     protected override void Start()
     {
         base.Start();
-        actions = new string[] { "Brigand" };
+        action = "Brigand";
     }
 	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+
+     public override void PerformAction(string actionToPerform)
+     {
+         base.PerformAction(actionToPerform);
+         CreateUnit(actionToPerform);
+     }
 }

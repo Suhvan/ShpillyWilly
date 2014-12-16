@@ -6,7 +6,9 @@ public class WorldObject : MonoBehaviour {
     public Texture2D buildImage;
     public int cost, sellValue, hitPoints, maxHitPoints;
     
-    protected string[] actions = { };
+    protected string action = "none";
+    public string Action { get { return action; } }
+
     protected bool currentlySelected = false;
     protected Player player;
 
@@ -29,12 +31,7 @@ public class WorldObject : MonoBehaviour {
     public void SetSelection(bool selected)
     {
         currentlySelected = selected;
-    }
-
-    public string[] GetActions()
-    {
-        return actions;
-    }
+    }    
 
     public virtual void PerformAction(string actionToPerform)
     {

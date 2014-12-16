@@ -6,6 +6,10 @@ public class BottomPanel : MonoBehaviour
 {
 
     public Text someText;
+
+    public Button action;
+
+    public Slider process;
 	// Use this for initialization
 	void Start () {
 	
