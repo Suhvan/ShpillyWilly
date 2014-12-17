@@ -7,8 +7,7 @@ public class Unit : WorldObject
     enum STATE 
     {
         IDLE = 0,
-        WALK_RIGHT = 1,
-        //WALK_LEFT=2,
+        WALK = 1,        
         ATTACK = 2
     }
     public float moveSpeed;
@@ -19,7 +18,7 @@ public class Unit : WorldObject
         {
             m_moving = value;
             if (value)
-                animator.SetInteger("State", (int)STATE.WALK_RIGHT);
+                animator.SetInteger("State", (int)STATE.WALK);
             else
                 animator.SetInteger("State", (int)STATE.IDLE);
 
@@ -28,7 +27,20 @@ public class Unit : WorldObject
     }
     private Animator animator;
 
-    private Vector3 destination;
+    private Vector3 m_destination;
+
+    private Vector3 Destination
+    
+    {
+        get { return m_destination; }
+        set 
+        {
+            
+            m_destination = value;            
+            var delta = m_destination - transform.position;            
+            animator.SetBool("Left",delta.x <= 0);          
+        }
+    }
     
 
     protected override void Awake()
@@ -67,8 +79,8 @@ public class Unit : WorldObject
 
     public void StartMove(Vector3 destination)
     {
-        
-        this.destination =  destination;        
+
+        Destination = destination;        
         //targetRotation = Quaternion.LookRotation(destination - transform.position);
         //rotating = true;
         Moving = true;
@@ -76,9 +88,9 @@ public class Unit : WorldObject
 
     private void MakeMove()
     {        
-        transform.position = Vector3.MoveTowards(transform.position, destination, Time.deltaTime * moveSpeed);
-
-        if (transform.position == destination)
+        transform.position = Vector3.MoveTowards(transform.position, Destination, Time.deltaTime * moveSpeed);
+        
+        if (transform.position == Destination)
         {
             Moving = false;
         }
