@@ -5,14 +5,17 @@ public class View : MonoBehaviour {
 
     private Player player;
     private BottomPanel panel;
+    private TopPanel topPanel;
 	// Use this for initialization
 	void Start () {
         player = transform.root.GetComponent<Player>();
         panel = FindObjectOfType<BottomPanel>();
+        topPanel = FindObjectOfType<TopPanel>();
 	}
 	
 	// Update is called once per frame
-	void Update () {        
+	void Update () {
+        topPanel.Money.text = player.money.ToString();
         if (player.SelectedObject != null )
         {
             panel.hpText.text = player.SelectedObject.hitPoints.ToString();
@@ -40,7 +43,7 @@ public class View : MonoBehaviour {
     {
         if (player.SelectedObject != null)
         {            
-            panel.someText.text = player.SelectedObject.name;
+            panel.someText.text = player.SelectedObject.objectName;
             panel.hpText.text = player.SelectedObject.hitPoints.ToString();
             panel.action.onClick.RemoveAllListeners();
             if (player.username == player.SelectedObject.Owner.username)

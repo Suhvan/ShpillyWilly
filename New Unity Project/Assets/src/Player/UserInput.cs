@@ -24,8 +24,43 @@ public class UserInput : MonoBehaviour {
 
     private void MouseActivity()
     {
-        if (Input.GetMouseButtonDown(0)) LeftMouseClick();
-        else if (Input.GetMouseButtonDown(1)) RightMouseClick();
+        if (player.buildingMode)
+        {
+            player.MoveBuilding(FindHitPoint());
+
+            if (Input.GetMouseButtonDown(0))
+            {
+                player.ConfirmBuilding();
+            }
+            else if (Input.GetMouseButtonDown(1))
+            {
+                player.RejectBuilding();                
+            }
+        }
+        else
+        { 
+            if (Input.GetMouseButtonDown(0)) 
+            {
+                LeftMouseClick();
+            }
+            else if (Input.GetMouseButtonDown(1))
+            {
+                RightMouseClick();
+            }
+        }
+    }
+
+    private void MouseHover()
+    {
+        if (player.buildingMode)
+        {
+            Screen.showCursor = false;
+
+        }
+        else
+        {
+            Screen.showCursor = true;
+        }
     }
 
     private void RightMouseClick()
@@ -42,14 +77,12 @@ public class UserInput : MonoBehaviour {
     {
         var hitObject = FindHitObject();
         Vector2 hitPoint = FindHitPoint();
-        Debug.Log(System.String.Format("Hit point:{0}, hit object:{1}",hitPoint, hitObject.name));
-        if (player.SelectedObject) player.SelectedObject.MouseClick(hitObject, hitPoint, player);
-        else if (hitObject && hitObject.name != "Ground")
+        Debug.Log(System.String.Format("Hit point:{0}, hit object:{1}",hitPoint, hitObject.name));        
+        if (!player.SelectedObject && hitObject && hitObject.name != "Ground")
         { 
             WorldObject worldObject = hitObject.GetComponent<WorldObject>();
             if (worldObject)
-            {
-                //we already know the player has no selected object
+            {                
                 player.SelectedObject = worldObject;
                 worldObject.SetSelection(true);
                 view.UpdateSelectedObject();

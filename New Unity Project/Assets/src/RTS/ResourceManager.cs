@@ -10,6 +10,8 @@ namespace RTS
         public static int ScrollWidth { get { return 15; } }
         public static int BuildSpeed { get { return 2; } }
 
+        public static float IncomeCooldown { get { return 5f; } }
+
         private static GameObjectList gameObjectList;
         public static void SetGameObjectList(GameObjectList objectList)
         {

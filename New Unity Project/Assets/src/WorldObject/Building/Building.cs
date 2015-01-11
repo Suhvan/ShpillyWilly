@@ -5,22 +5,15 @@ using RTS;
 
 public class Building : WorldObject {
 
-    public float maxBuildProgress;
-    protected Queue<string> buildQueue;
-    private float currentBuildProgress = 0.0f;
-    private Vector3 spawnPoint;
+    public float maxBuildProgress;    
+    private float currentBuildProgress = 0.0f;    
     public bool production;
+    public int incomeChange=1;
 
-    protected string productionUnit = "none";
-    public string ProductionUnit { get { return productionUnit; } }
+    public bool Pause {get; set;}
 
-    public string[] getBuildQueueValues()
-    {
-        string[] values = new string[buildQueue.Count];
-        int pos = 0;
-        foreach (string unit in buildQueue) values[pos++] = unit;
-        return values;
-    }
+    public string productionUnit = "none";
+    public string ProductionUnit { get { return productionUnit; } }  
 
     public float getBuildPercentage()
     {
@@ -28,11 +21,7 @@ public class Building : WorldObject {
     }
 
     protected override void Awake()
-    {
-        buildQueue = new Queue<string>();
-        //float spawnX = selectionBounds.center.x + transform.forward.x * selectionBounds.extents.x + transform.forward.x * 10;
-        //float spawnZ = selectionBounds.center.z + transform.forward.z + selectionBounds.extents.z + transform.forward.z * 10;
-        spawnPoint = transform.position;
+    {        
     }
 
     protected override void Start()
@@ -42,9 +31,17 @@ public class Building : WorldObject {
 
     protected override void Update()
     {
+        if (Pause)
+            return;
         base.Update();
         if (production)
             ProcessBuildQueue();
+    }
+
+    protected override void onDestroy()
+    {
+        base.onDestroy();
+        player.ChangeIncome(-incomeChange);
     }
 
     protected void ProcessBuildQueue()
@@ -55,19 +52,13 @@ public class Building : WorldObject {
             if (currentBuildProgress > maxBuildProgress)
             {
                 if (player)
-                {
-                    //player.AddUnit(buildQueue.Dequeue(), spawnPoint, transform.rotation);
-                    player.AddUnit(productionUnit, spawnPoint, transform.rotation); 
+                {                    
+                    player.AddUnit(productionUnit, transform.position); 
                 }
                 currentBuildProgress = 0.0f;
             }
         }
     }
-
-
-    protected void CreateUnit(string unitName)
-    {
-        buildQueue.Enqueue(unitName);
-    }
+   
   
 }

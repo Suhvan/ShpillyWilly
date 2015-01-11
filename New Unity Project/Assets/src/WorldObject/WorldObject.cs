@@ -4,7 +4,7 @@ using System.Collections;
 public class WorldObject : MonoBehaviour {
     public string objectName;
     public Texture2D buildImage;
-    public int cost, sellValue, hitPoints, maxHitPoints;   
+    public int cost, sellValue, hitPoints, maxHitPoints, reward=1;   
    
 
     protected bool currentlySelected = false;
@@ -31,6 +31,10 @@ public class WorldObject : MonoBehaviour {
     {
         get
         {
+            if (player == null)
+            {
+                player = transform.root.GetComponentInChildren<Player>();
+            }
             return player;
         }
     }
@@ -53,13 +57,13 @@ public class WorldObject : MonoBehaviour {
 
     protected virtual void Awake()
     {
-
+        
     }
 
 	// Use this for initialization
     protected virtual void Start()
     {
-        player = transform.root.GetComponentInChildren<Player>();
+      
 	}
 	
 	// Update is called once per frame
@@ -88,8 +92,8 @@ public class WorldObject : MonoBehaviour {
             WorldObject obj = h.collider.gameObject.GetComponent<WorldObject>();
             if (obj != null)
             {
-                if (player.username != obj.Owner.username)
-                { 
+                if (Owner.username != obj.Owner.username)
+                {
                     target = obj;
                     return;
                 }                
@@ -106,30 +110,6 @@ public class WorldObject : MonoBehaviour {
     {
         //it is up to children with specific actions to determine what to do with each of those actions
     }
-
-    public virtual void MouseClick(GameObject hitObject, Vector2 hitPoint, Player controller)
-    {
-        //only handle input if currently selected
-        if (currentlySelected && hitObject && hitObject.name != "Ground")
-        {
-            WorldObject worldObject = hitObject.GetComponent<WorldObject>();
-            //clicked on another selectable object
-            if (worldObject)
-            {
-                ChangeSelection(worldObject, controller);
-                
-                if (player && player.human)
-                { //this object is controlled by a human player
-                    //start attack if object is not owned by the same player and this object can attack, else select
-                    if (player.username != worldObject.Owner.username && canAttack) BeginAttack(worldObject);
-                        else ChangeSelection(worldObject, controller);
-                }
-                else ChangeSelection(worldObject, controller);
-                
-            }
-        }
-    }
-   
 
     private void ChangeSelection(WorldObject worldObject, Player controller)
     {
@@ -173,9 +153,12 @@ public class WorldObject : MonoBehaviour {
 
     protected virtual void UseWeaponOnTarget()
     {
-        currentWeaponCooldown = weaponRechargeTime;
+        currentWeaponCooldown = weaponRechargeTime;       
+
         if (melee)
+        {
             target.TakeDamage(attack);
+        }
         else
         { 
             //пустить снаряд
@@ -191,7 +174,16 @@ public class WorldObject : MonoBehaviour {
     public void TakeDamage(int damage)
     {
         hitPoints -= damage;
-        if (hitPoints <= 0) Destroy(gameObject);
+        if (hitPoints <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
+
+    protected virtual void onDestroy()
+    {
+        Destroy(gameObject);
+    }
+         
 
 }

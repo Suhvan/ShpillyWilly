@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\src\HUD\BottomPanel.cs" />
+     <Compile Include="Assets\src\HUD\TopPanel.cs" />
      <Compile Include="Assets\src\Player\Buildings.cs" />
      <Compile Include="Assets\src\Player\Player.cs" />
      <Compile Include="Assets\src\Player\Units.cs" />

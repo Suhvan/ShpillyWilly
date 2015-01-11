@@ -75,24 +75,7 @@ public class Unit : WorldObject
             if(anyObject!=null)
             StartMove(anyObject.transform.position);
         }
-    }
-
-    public override void MouseClick(GameObject hitObject, Vector2 hitPoint, Player controller)
-    {
-        base.MouseClick(hitObject, hitPoint, controller);
-        //only handle input if owned by a human player and currently selected
-        if (player && player.human && currentlySelected)
-        {
-            if (hitObject.name == "Ground")
-            {
-                float x = hitPoint.x;
-                //makes sure that the unit stays on top of the surface it is on
-                float y = hitPoint.y ;
-                float z = player.SelectedObject.transform.position.z;
-                StartMove(new Vector3(x, y, z));
-            }
-        }
-    }
+    }   
 
     public void StartMove(Vector3 destination)
     {

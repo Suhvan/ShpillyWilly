@@ -5,13 +5,11 @@ public class Barracks : Building {
 
     protected override void Start()
     {
-        base.Start();
-        productionUnit = "Brigand";
+        base.Start();        
     }	
 
      public override void PerformAction(string actionToPerform)
      {
-         base.PerformAction(actionToPerform);
-         CreateUnit(actionToPerform);
+         base.PerformAction(actionToPerform);      
      }
 }
