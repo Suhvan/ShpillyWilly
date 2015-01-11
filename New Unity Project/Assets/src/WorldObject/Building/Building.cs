@@ -9,6 +9,10 @@ public class Building : WorldObject {
     protected Queue<string> buildQueue;
     private float currentBuildProgress = 0.0f;
     private Vector3 spawnPoint;
+    public bool production;
+
+    protected string productionUnit = "none";
+    public string ProductionUnit { get { return productionUnit; } }
 
     public string[] getBuildQueueValues()
     {
@@ -28,7 +32,7 @@ public class Building : WorldObject {
         buildQueue = new Queue<string>();
         //float spawnX = selectionBounds.center.x + transform.forward.x * selectionBounds.extents.x + transform.forward.x * 10;
         //float spawnZ = selectionBounds.center.z + transform.forward.z + selectionBounds.extents.z + transform.forward.z * 10;
-        spawnPoint = new Vector3(1,2,-1);
+        spawnPoint = transform.position;
     }
 
     protected override void Start()
@@ -39,17 +43,22 @@ public class Building : WorldObject {
     protected override void Update()
     {
         base.Update();
-        ProcessBuildQueue();
+        if (production)
+            ProcessBuildQueue();
     }
 
     protected void ProcessBuildQueue()
     {
-        if (buildQueue.Count > 0)
+       //if (buildQueue.Count > 0)
         {
             currentBuildProgress += Time.deltaTime * ResourceManager.BuildSpeed;
             if (currentBuildProgress > maxBuildProgress)
             {
-                if (player) player.AddUnit(buildQueue.Dequeue(), spawnPoint, transform.rotation);
+                if (player)
+                {
+                    //player.AddUnit(buildQueue.Dequeue(), spawnPoint, transform.rotation);
+                    player.AddUnit(productionUnit, spawnPoint, transform.rotation); 
+                }
                 currentBuildProgress = 0.0f;
             }
         }

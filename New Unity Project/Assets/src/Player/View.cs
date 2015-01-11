@@ -13,8 +13,10 @@ public class View : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {        
-        if (player.SelectedObject != null)
+        if (player.SelectedObject != null )
         {
+            panel.hpText.text = player.SelectedObject.hitPoints.ToString();
+            panel.hpSlider.value = player.SelectedObject.HPPercentage;
             if (player.SelectedObject is Building)
             {
                 Building building = (Building)player.SelectedObject;
@@ -28,35 +30,45 @@ public class View : MonoBehaviour {
         else
         {
             panel.process.value = 0;
+            panel.hpText.text = "";
+            panel.hpSlider.value = 0f;
         }
 	}
+
 
     public void UpdateSelectedObject()
     {
         if (player.SelectedObject != null)
-        {
+        {            
             panel.someText.text = player.SelectedObject.name;
-            panel.action.onClick.RemoveAllListeners();            
-            if (player.SelectedObject is Building)
+            panel.hpText.text = player.SelectedObject.hitPoints.ToString();
+            panel.action.onClick.RemoveAllListeners();
+            if (player.username == player.SelectedObject.Owner.username)
             {
-                Building building = (Building)player.SelectedObject;
-                panel.action.onClick.AddListener(() =>
+                if (player.SelectedObject is Building)
                 {
-                    building.PerformAction(building.Action);
-                });
-            }
-            else if (player.SelectedObject is Unit)
-            {
-                panel.action.onClick.AddListener(() =>
+                    Building building = (Building)player.SelectedObject;
+                    panel.action.onClick.AddListener(() =>
+                    {
+                        building.PerformAction(building.ProductionUnit);
+                    });
+                }
+                else if (player.SelectedObject is Unit)
                 {
-                    Debug.Log("Hatton!");
-                });
+                    panel.action.onClick.AddListener(() =>
+                    {
+                        Debug.Log("Hatton!");
+                    });
+                }
             }
         }
         else
         {
             panel.action.onClick.RemoveAllListeners();
             panel.someText.text = "";
+            panel.process.value = 0;
+            panel.hpText.text = "";
+            panel.hpSlider.value = 0f;
         }
     }
 }

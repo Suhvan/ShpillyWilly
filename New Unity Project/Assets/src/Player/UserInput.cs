@@ -82,21 +82,21 @@ public class UserInput : MonoBehaviour {
         Vector3 movement = new Vector3(0, 0, 0);
 
         //horizontal camera movement
-        if ((xpos >= 0 && xpos < ResourceManager.ScrollWidth) || Input.GetKey(KeyCode.LeftArrow))
+        if ((xpos >= 0 && xpos < ResourceManager.ScrollWidth) || Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
         {
             movement.x -= ResourceManager.ScrollSpeed;
         }
-        else if ((xpos <= Screen.width && xpos > Screen.width - ResourceManager.ScrollWidth)||Input.GetKey(KeyCode.RightArrow))
+        else if ((xpos <= Screen.width && xpos > Screen.width - ResourceManager.ScrollWidth) || Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
         {
             movement.x += ResourceManager.ScrollSpeed;
         }        
 
         //vertical camera movement
-        if ((ypos >= 0 && ypos < ResourceManager.ScrollWidth) || Input.GetKey(KeyCode.DownArrow))
+        if ((ypos >= 0 && ypos < ResourceManager.ScrollWidth) || Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
         {
             movement.y -= ResourceManager.ScrollSpeed;
         }
-        else if ((ypos <= Screen.height && ypos > Screen.height - ResourceManager.ScrollWidth)||Input.GetKey(KeyCode.UpArrow))
+        else if ((ypos <= Screen.height && ypos > Screen.height - ResourceManager.ScrollWidth) || Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W))
         {
             movement.y += ResourceManager.ScrollSpeed;
         }

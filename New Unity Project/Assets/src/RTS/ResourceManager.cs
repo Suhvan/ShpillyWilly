@@ -31,9 +31,9 @@ namespace RTS
             return gameObjectList.GetWorldObject(name);
         }
 
-        public static GameObject GetPlayerObject()
+        public static GameObject GetEnemyPlayerObject(Player me)
         {
-            return gameObjectList.GetPlayerObject();
+            return gameObjectList.GetEnemyPlayerObject(me);
         }
 
         public static Texture2D GetBuildImage(string name)

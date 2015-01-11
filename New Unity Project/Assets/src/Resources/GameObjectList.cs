@@ -7,7 +7,7 @@ public class GameObjectList : MonoBehaviour {
     public GameObject[] buildings;
     public GameObject[] units;
     public GameObject[] worldObjects;
-    public GameObject player;
+    public GameObject[] players;
 
     private static bool created = false;
 
@@ -64,9 +64,14 @@ public class GameObjectList : MonoBehaviour {
         return null;
     }
 
-    public GameObject GetPlayerObject()
+    public GameObject GetEnemyPlayerObject(Player me)
     {
-        return player;
+        foreach (var p in players)
+        {
+            if (p.name != me.name)
+                return p;
+        }
+        return null;
     }
 
     public Texture2D GetBuildImage(string name)

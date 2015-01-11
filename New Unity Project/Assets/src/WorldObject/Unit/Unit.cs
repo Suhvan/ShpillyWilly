@@ -1,14 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+using RTS;
 public class Unit : WorldObject
 {
 
     enum STATE 
     {
         IDLE = 0,
-        WALK = 1,        
-        ATTACK = 2
+        WALK = 1,
     }
     public float moveSpeed;
     protected bool m_moving;
@@ -21,7 +20,6 @@ public class Unit : WorldObject
                 animator.SetInteger("State", (int)STATE.WALK);
             else
                 animator.SetInteger("State", (int)STATE.IDLE);
-
         }
         get { return m_moving; }
     }
@@ -35,7 +33,6 @@ public class Unit : WorldObject
         get { return m_destination; }
         set 
         {
-            
             m_destination = value;            
             var delta = m_destination - transform.position;            
             animator.SetBool("Left",delta.x <= 0);          
@@ -56,8 +53,28 @@ public class Unit : WorldObject
     protected override void Update()
     {     
         base.Update();
-        //if (rotating) TurnToTarget();
-        if (Moving) MakeMove();
+        if (Moving)
+        {
+            MakeMove();
+        }
+        else if(!HasTarget)
+        {
+            GoToEnemyBase();
+        }
+    }
+
+    private void GoToEnemyBase()
+    {
+        GameObject enemy = ResourceManager.GetEnemyPlayerObject(Owner);
+        MainBase enemyBase = enemy.transform.GetComponentInChildren<MainBase>();
+        if (enemyBase != null)
+            StartMove(enemyBase.transform.position);
+        else
+        {
+            WorldObject anyObject = enemy.transform.GetComponentInChildren<WorldObject>();
+            if(anyObject!=null)
+            StartMove(anyObject.transform.position);
+        }
     }
 
     public override void MouseClick(GameObject hitObject, Vector2 hitPoint, Player controller)
@@ -92,7 +109,30 @@ public class Unit : WorldObject
         
         if (transform.position == Destination)
         {
-            Moving = false;
+            Moving = false;            
         }
     }
+
+    protected override void UseWeaponOnTarget()
+    {
+        base.UseWeaponOnTarget();
+        animator.SetTrigger("Attack");
+    }
+
+    protected override void AdjustPosition()
+    {        
+        Vector3 attackPosition = FindNearestAttackPosition();
+        StartMove(attackPosition);
+    }
+
+    private Vector3 FindNearestAttackPosition()
+    {
+        Vector3 targetLocation = target.transform.position;
+        Vector3 direction = targetLocation - transform.position;
+        float targetDistance = direction.magnitude;
+        float distanceToTravel = targetDistance - (0.9f * weaponRange);
+        return Vector3.Lerp(transform.position, targetLocation, distanceToTravel / targetDistance);
+    }
+
+  
 }

@@ -6,9 +6,8 @@ public class Barracks : Building {
     protected override void Start()
     {
         base.Start();
-        action = "Brigand";
-    }
-	
+        productionUnit = "Brigand";
+    }	
 
      public override void PerformAction(string actionToPerform)
      {
