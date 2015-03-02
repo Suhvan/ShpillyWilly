@@ -1,15 +1,19 @@
 ﻿using UnityEngine;
 using System.Collections;
 using RTS;
+using Pathfinding;
 public class Unit : WorldObject
 {
 
-    enum STATE 
-    {
-        IDLE = 0,
-        WALK = 1,
-    }
+
+    public float nextWaypointDistance = 0.1f;
     public float moveSpeed;
+    private Seeker seeker;
+    public Path calculatedPath;
+    //The waypoint we are currently moving towards
+    private int currentWaypoint = 0;
+
+ 
     protected bool m_moving;
     protected bool Moving
     {
@@ -24,7 +28,11 @@ public class Unit : WorldObject
         get { return m_moving; }
     }
     private Animator animator;
-
+    enum STATE
+    {
+        IDLE = 0,
+        WALK = 1,
+    }
     private Vector3 m_destination;
 
     private Vector3 Destination
@@ -43,6 +51,7 @@ public class Unit : WorldObject
     protected override void Awake()
     {
         animator = transform.GetComponentInChildren<Animator>();
+        seeker = GetComponent<Seeker>();
     }
 
     protected override void Start()
@@ -75,24 +84,60 @@ public class Unit : WorldObject
             if(anyObject!=null)
             StartMove(anyObject.transform.position);
         }
-    }   
+    }
 
+    bool calledNewPath = false;
     public void StartMove(Vector3 destination)
-    {
+    { 
+        if(!calledNewPath)
+        { 
+            seeker.StartPath(transform.position, destination, OnPathComplete);
+            Destination = destination;        
+            //targetRotation = Quaternion.LookRotation(destination - transform.position);
+            //rotating = true;
+            Moving = true;
+            calledNewPath = true;
+        }
+    }
 
-        Destination = destination;        
-        //targetRotation = Quaternion.LookRotation(destination - transform.position);
-        //rotating = true;
-        Moving = true;
+    public void OnPathComplete(Path p)
+    {
+        calledNewPath = false;
+        Debug.Log("Yay, we got a path back. Did it have an error? " + p.error);
+        if (!p.error)
+        {
+            calculatedPath = p;
+            //Reset the waypoint counter
+            currentWaypoint = 0;
+        }
     }
 
     private void MakeMove()
-    {        
-        transform.position = Vector3.MoveTowards(transform.position, Destination, Time.deltaTime * moveSpeed);
-        
-        if (transform.position == Destination)
+    {
+        if (calculatedPath == null)
         {
-            Moving = false;            
+            //We have no path to move after yet
+            Moving = false;
+            return;
+        }
+
+        if (currentWaypoint >= calculatedPath.vectorPath.Count)
+        {
+            //Debug.Log("End Of Path Reached");
+            Moving = false;
+            return;
+        }
+
+        var vect = Vector3.MoveTowards(transform.position, calculatedPath.vectorPath[currentWaypoint], Time.deltaTime * moveSpeed);
+        vect.z = -1;
+        transform.position = vect;
+
+        //Check if we are close enough to the next waypoint
+        //If we are, proceed to follow the next waypoint
+        if (Vector3.Distance(transform.position, calculatedPath.vectorPath[currentWaypoint]) < nextWaypointDistance)
+        {
+            currentWaypoint++;
+            return;
         }
     }
 
