@@ -21,9 +21,14 @@ public class Unit : WorldObject
         {
             m_moving = value;
             if (value)
+            {
                 animator.SetInteger("State", (int)STATE.WALK);
+            }
             else
+            {
+                adjusting = false;
                 animator.SetInteger("State", (int)STATE.IDLE);
+            }
         }
         get { return m_moving; }
     }
@@ -103,12 +108,15 @@ public class Unit : WorldObject
     public void OnPathComplete(Path p)
     {
         calledNewPath = false;
-        Debug.Log("Yay, we got a path back. Did it have an error? " + p.error);
         if (!p.error)
         {
             calculatedPath = p;
             //Reset the waypoint counter
             currentWaypoint = 0;
+        }
+        else
+        {
+            Debug.LogError("Path error: " + p.error);
         }
     }
 
@@ -146,11 +154,16 @@ public class Unit : WorldObject
         base.UseWeaponOnTarget();
         animator.SetTrigger("Attack");
     }
+    bool adjusting = false;
 
     protected override void AdjustPosition()
     {        
-        Vector3 attackPosition = FindNearestAttackPosition();
-        StartMove(attackPosition);
+        if(!adjusting)
+        { 
+            Vector3 attackPosition = FindNearestAttackPosition();
+            StartMove(attackPosition);
+            adjusting = true;
+        }
     }
 
     private Vector3 FindNearestAttackPosition()

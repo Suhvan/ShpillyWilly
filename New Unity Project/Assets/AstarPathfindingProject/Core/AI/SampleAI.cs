@@ -11,7 +11,7 @@ public class SampleAI : MonoBehaviour {
     public float speed = 0.01f;
 
     //The max distance from the AI to a waypoint for it to continue to the next waypoint
-    public float nextWaypointDistance = 0.01f;
+    public float nextWaypointDistance = 0.1f;
 
     //The waypoint we are currently moving towards
     private int currentWaypoint = 0;

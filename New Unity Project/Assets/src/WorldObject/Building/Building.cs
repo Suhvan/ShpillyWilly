@@ -53,7 +53,7 @@ public class Building : WorldObject {
             {
                 if (player)
                 {                    
-                    player.AddUnit(productionUnit, transform.position); 
+                    player.AddUnit(productionUnit, transform.position - new Vector3(0,1,0)); 
                 }
                 currentBuildProgress = 0.0f;
             }

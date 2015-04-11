@@ -122,11 +122,18 @@ public class WorldObject : MonoBehaviour {
 
     private bool TargetInRange()
     {
-        Vector2 targetLocation = target.transform.position;
-        Vector2 direction = targetLocation - (Vector2)transform.position;
-        if (direction.sqrMagnitude < weaponRange * weaponRange)
+        //Vector2 targetLocation = target.transform.position;
+        //Vector2 direction = targetLocation - (Vector2)transform.position;
+        
+        //if (direction.sqrMagnitude < weaponRange * weaponRange)
+        var hits = Physics2D.CircleCastAll(this.transform.position, weaponRange, Vector2.zero);        
+        foreach( var hit in hits)
         {
-            return true;
+            WorldObject obj = hit.collider.gameObject.GetComponent<WorldObject>();
+            if(obj == target )
+            {
+                    return true;
+            }
         }
         return false;
     }

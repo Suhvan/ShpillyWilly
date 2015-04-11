@@ -54,12 +54,12 @@ public class UserInput : MonoBehaviour {
     {
         if (player.buildingMode)
         {
-            Screen.showCursor = false;
+            Cursor.visible = false;
 
         }
         else
         {
-            Screen.showCursor = true;
+            Cursor.visible = true;
         }
     }
 
@@ -76,16 +76,19 @@ public class UserInput : MonoBehaviour {
     private void LeftMouseClick()
     {
         var hitObject = FindHitObject();
-        Vector2 hitPoint = FindHitPoint();
-        Debug.Log(System.String.Format("Hit point:{0}, hit object:{1}",hitPoint, hitObject.name));        
-        if (!player.SelectedObject && hitObject && hitObject.name != "Ground")
+        if(hitObject!=null)
         { 
-            WorldObject worldObject = hitObject.GetComponent<WorldObject>();
-            if (worldObject)
-            {                
-                player.SelectedObject = worldObject;
-                worldObject.SetSelection(true);
-                view.UpdateSelectedObject();
+            Vector2 hitPoint = FindHitPoint();
+            Debug.Log(System.String.Format("Hit point:{0}, hit object:{1}",hitPoint, hitObject.name));        
+            if (!player.SelectedObject && hitObject)
+            { 
+                WorldObject worldObject = hitObject.GetComponent<WorldObject>();
+                if (worldObject)
+                {                
+                    player.SelectedObject = worldObject;
+                    worldObject.SetSelection(true);
+                    view.UpdateSelectedObject();
+                }
             }
         }
         
