@@ -24,43 +24,14 @@ public class UserInput : MonoBehaviour {
 
     private void MouseActivity()
     {
-        if (player.buildingMode)
+        if (Input.GetMouseButtonDown(0)) 
         {
-            player.MoveBuilding(FindHitPoint());
-
-            if (Input.GetMouseButtonDown(0))
-            {
-                player.ConfirmBuilding();
-            }
-            else if (Input.GetMouseButtonDown(1))
-            {
-                player.RejectBuilding();                
-            }
+            LeftMouseClick();
         }
-        else
-        { 
-            if (Input.GetMouseButtonDown(0)) 
-            {
-                LeftMouseClick();
-            }
-            else if (Input.GetMouseButtonDown(1))
-            {
-                RightMouseClick();
-            }
-        }
-    }
-
-    private void MouseHover()
-    {
-        if (player.buildingMode)
+        else if (Input.GetMouseButtonDown(1))
         {
-            Cursor.visible = false;
-
-        }
-        else
-        {
-            Cursor.visible = true;
-        }
+            RightMouseClick();
+        }     
     }
 
     private void RightMouseClick()
@@ -80,7 +51,7 @@ public class UserInput : MonoBehaviour {
         { 
             Vector2 hitPoint = FindHitPoint();
             Debug.Log(System.String.Format("Hit point:{0}, hit object:{1}",hitPoint, hitObject.name));        
-            if (!player.SelectedObject && hitObject)
+            if ( hitObject)
             { 
                 WorldObject worldObject = hitObject.GetComponent<WorldObject>();
                 if (worldObject)

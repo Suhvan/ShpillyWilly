@@ -2,7 +2,10 @@
 using System.Collections;
 using UnityEngine.UI;
 
-public class TopPanel : MonoBehaviour {
+namespace HUD
+{ 
+    public class TopPanel : MonoBehaviour {
 
-    public Text Money;
+        public Text Money;
+    }
 }

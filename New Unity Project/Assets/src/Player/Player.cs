@@ -10,11 +10,9 @@ public class Player : MonoBehaviour {
     public int money;    
     public Units units;
     public Buildings buildings;
+    public BuildSpots buildSpots;
     public float incomeCooldown;
-    private int income = 5;
-
-    public bool buildingMode = false;
-    public GameObject tmpBuilding;
+    private int income = 5;    
     
     public void ChangeIncome(int val)
     {
@@ -34,6 +32,10 @@ public class Player : MonoBehaviour {
             incomeCooldown = 0;
             money += income;
         }
+        if (!human)
+        { 
+
+        }
 	}
 
     internal void AddUnit(string unitName, Vector3 spawnPoint)
@@ -44,35 +46,17 @@ public class Player : MonoBehaviour {
 
     public void StartBuilding(string buildingName)
     {        
-        if (ResourceManager.GetBuilding(buildingName).GetComponent<Building>().cost <= money)
-        {           
-            buildingMode = true;
+        if (ResourceManager.GetBuilding(buildingName).GetComponent<Building>().cost <= money && SelectedObject is BuildingSpot)
+        {            
             Debug.Log(buildingName);
-            tmpBuilding = (GameObject)Instantiate(ResourceManager.GetBuilding(buildingName), Vector3.zero, new Quaternion());
+            var pos = SelectedObject.transform.position;
+            Destroy(SelectedObject.gameObject);
+            var tmpBuilding = (GameObject)Instantiate(ResourceManager.GetBuilding(buildingName), pos, new Quaternion());
             tmpBuilding.transform.parent = buildings.transform;
-            var building = tmpBuilding.GetComponent<Building>();
-            building.Pause = true;
+            var building = tmpBuilding.GetComponent<Building>();            
+            income += building.incomeChange;
+            money -= building.cost;            
         }
     }
 
-    public void MoveBuilding(Vector3 position)    
-    {
-        position.z = -3;
-        tmpBuilding.transform.position = position;
-    }
-
-    public void ConfirmBuilding()
-    {
-        buildingMode = false;
-        var building = tmpBuilding.GetComponent<Building>();
-        income += building.incomeChange;
-        money -= building.cost;
-        building.Pause = false;
-    }
-
-    public void RejectBuilding()
-    {
-        buildingMode = false;
-        Destroy(tmpBuilding);
-    }
 }

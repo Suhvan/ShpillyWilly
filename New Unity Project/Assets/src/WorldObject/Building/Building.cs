@@ -51,9 +51,9 @@ public class Building : WorldObject {
             currentBuildProgress += Time.deltaTime * ResourceManager.BuildSpeed;
             if (currentBuildProgress > maxBuildProgress)
             {
-                if (player)
-                {                    
-                    player.AddUnit(productionUnit, transform.position - new Vector3(0,1,0)); 
+                if (Owner)
+                {
+                    Owner.AddUnit(productionUnit, transform.position - new Vector3(0, 1, 0)); 
                 }
                 currentBuildProgress = 0.0f;
             }
