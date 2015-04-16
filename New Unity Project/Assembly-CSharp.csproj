@@ -128,6 +128,7 @@
      <Compile Include="Assets\src\HUD\TopPanel.cs" />
      <Compile Include="Assets\src\Player\BuildSpots.cs" />
      <Compile Include="Assets\src\Player\Buildings.cs" />
+     <Compile Include="Assets\src\Player\Player.Ai.cs" />
      <Compile Include="Assets\src\Player\Player.cs" />
      <Compile Include="Assets\src\Player\Units.cs" />
      <Compile Include="Assets\src\Player\UserInput.cs" />

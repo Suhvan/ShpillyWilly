@@ -2,7 +2,7 @@
 using System.Collections;
 using RTS;
 
-public class Player : MonoBehaviour {
+public partial class Player : MonoBehaviour {
 
     public string username;
     public bool human;
@@ -12,7 +12,7 @@ public class Player : MonoBehaviour {
     public Buildings buildings;
     public BuildSpots buildSpots;
     public float incomeCooldown;
-    private int income = 5;    
+    public int income = 1;    
     
     public void ChangeIncome(int val)
     {
@@ -33,8 +33,8 @@ public class Player : MonoBehaviour {
             money += income;
         }
         if (!human)
-        { 
-
+        {
+            Think();
         }
 	}
 
@@ -47,13 +47,15 @@ public class Player : MonoBehaviour {
     public void StartBuilding(string buildingName)
     {        
         if (ResourceManager.GetBuilding(buildingName).GetComponent<Building>().cost <= money && SelectedObject is BuildingSpot)
-        {            
+        {
             Debug.Log(buildingName);
             var pos = SelectedObject.transform.position;
+            var delta = ((BuildingSpot)SelectedObject).spownPointDelta;
             Destroy(SelectedObject.gameObject);
             var tmpBuilding = (GameObject)Instantiate(ResourceManager.GetBuilding(buildingName), pos, new Quaternion());
             tmpBuilding.transform.parent = buildings.transform;
-            var building = tmpBuilding.GetComponent<Building>();            
+            var building = tmpBuilding.GetComponent<Building>();
+            building.spownPointDelta = delta;
             income += building.incomeChange;
             money -= building.cost;            
         }

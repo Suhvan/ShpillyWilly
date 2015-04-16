@@ -47,13 +47,17 @@ public class View : MonoBehaviour {
             {
                 panel.setState(HUD.BottomPanel.Mode.BUILDING);
             }
-            else if (player.SelectedObject is BuildingSpot)
+            else if (player.SelectedObject is BuildingSpot && player.SelectedObject.Owner == player)
             {
                 panel.setState(HUD.BottomPanel.Mode.BUILD_SLOT);
             }
             else if (player.SelectedObject is Unit)
             {
                 panel.setState(HUD.BottomPanel.Mode.UNIT);
+            }
+            else
+            {
+                panel.setState(HUD.BottomPanel.Mode.NONE);
             }
         }
         else

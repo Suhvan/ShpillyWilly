@@ -9,6 +9,7 @@ public class Building : WorldObject {
     private float currentBuildProgress = 0.0f;    
     public bool production;
     public int incomeChange=1;
+    public Vector3 spownPointDelta;
 
     public bool Pause {get; set;}
 
@@ -53,7 +54,7 @@ public class Building : WorldObject {
             {
                 if (Owner)
                 {
-                    Owner.AddUnit(productionUnit, transform.position - new Vector3(0, 1, 0)); 
+                    Owner.AddUnit(productionUnit, transform.position + spownPointDelta); 
                 }
                 currentBuildProgress = 0.0f;
             }
