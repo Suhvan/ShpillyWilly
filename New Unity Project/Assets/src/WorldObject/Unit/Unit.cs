@@ -75,6 +75,7 @@ public class Unit : WorldObject
         {
             GoToEnemyBase();
         }
+        AdjustDepth();
     }
 
     private void GoToEnemyBase()
@@ -136,8 +137,8 @@ public class Unit : WorldObject
             return;
         }
 
-        var vect = Vector3.MoveTowards(transform.position, calculatedPath.vectorPath[currentWaypoint], Time.deltaTime * moveSpeed);
-        vect.z = -1;
+        var vect = Vector3.MoveTowards(transform.position, calculatedPath.vectorPath[currentWaypoint], Time.deltaTime * moveSpeed);       
+       
         transform.position = vect;
 
         //Check if we are close enough to the next waypoint

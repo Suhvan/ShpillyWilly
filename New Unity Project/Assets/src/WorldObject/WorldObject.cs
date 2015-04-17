@@ -57,13 +57,26 @@ public class WorldObject : MonoBehaviour {
 
     protected virtual void Awake()
     {
-        
+        transform.position = Utils.DepthHelper.SetBaseObjectPosition(transform.position);
+        AdjustDepth();
+    
+    }
+
+    public void SetColor()
+    {
+        gameObject.GetComponentInChildren<SpriteRenderer>().color = Owner.factionColor;
+    }
+
+    protected void AdjustDepth()
+    {
+       var trnsfrm = gameObject.GetComponentInChildren<SpriteRenderer>().transform;
+       trnsfrm.position = Utils.DepthHelper.AdjustSpritePosition(transform.position, transform.position.y);
     }
 
 	// Use this for initialization
     protected virtual void Start()
     {
-      
+        SetColor();
 	}
 	
 	// Update is called once per frame

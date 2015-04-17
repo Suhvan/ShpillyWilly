@@ -12,7 +12,8 @@ public partial class Player : MonoBehaviour {
     public Buildings buildings;
     public BuildSpots buildSpots;
     public float incomeCooldown;
-    public int income = 1;    
+    public int income = 1;
+    public Color factionColor;
     
     public void ChangeIncome(int val)
     {
@@ -42,6 +43,8 @@ public partial class Player : MonoBehaviour {
     {        
         GameObject newUnit = (GameObject)Instantiate(ResourceManager.GetUnit(unitName), spawnPoint, new Quaternion());
         newUnit.transform.parent = units.transform;
+        var pos = newUnit.transform.position;        
+        newUnit.transform.position = pos;
     }
 
     public void StartBuilding(string buildingName)

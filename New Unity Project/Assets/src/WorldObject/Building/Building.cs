@@ -22,7 +22,8 @@ public class Building : WorldObject {
     }
 
     protected override void Awake()
-    {        
+    {
+        base.Awake();
     }
 
     protected override void Start()
